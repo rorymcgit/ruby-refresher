@@ -4,6 +4,7 @@ require 'questions'
 RSpec.configure do |config|
   config.color = true
   config.formatter = :documentation
+  config.fail_fast = true
 end
 
 describe 'the Friday test :)' do
